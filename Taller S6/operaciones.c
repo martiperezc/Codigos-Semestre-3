@@ -1,15 +1,16 @@
-#include <stdio.h>
-#include <string.h>
 #include "operaciones.h"
 #include "Validaciones.h"
 
 
 void ingresarDatos(char nombres[][MAX_NOMBRE], float precios[], int n) {
     for (int i = 0; i < n; i++) {
+        printf("\n--- Ingresando datos del Libro #%d ---\n", i + 1);
         //Implementamos funcion que valida el nombre de un producto.
-        obtener_texto_valido("Ingrese el nombre de su producto: \n", nombres[i], sizeof(MAX_NOMBRE));
-        printf("precio del producto %i: ", i + 1);
+        validar_strings(nombres[i], MAX_NOMBRE, "Ingrese el nombre de su producto:");
+        printf("Ingrese el precio del producto %i: \n", i + 1);
         scanf("%f", &precios[i]);
+        while (getchar() != '\n');   // Sentencia para limpiar salto de linea despues de scanf            
+
     }
 }
 
