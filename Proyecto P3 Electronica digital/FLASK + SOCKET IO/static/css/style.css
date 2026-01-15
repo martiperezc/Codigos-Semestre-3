@@ -1,0 +1,32 @@
+body {
+
+  background-color: black; /* Cambia el lienzo base a negro */
+  color: white;            /* Cambia el texto (como el H2) a blanco para que sea visible */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#plano-container {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  max-width: 1920px;
+  height: auto;
+  margin: auto;
+}
+
+#plano-img {
+  width: 100%;
+  display: block;
+}
+
+.auto {
+  position: absolute;
+  width: 8%;
+  transform: translate(-50%, -50%); /* Centra la imagen en el punto exacto */
+  transition: opacity 0.3s ease;
+}
+#titulo-plano {
+    color: #ccff00; /* Un color neón para que combine con tu plano */
+    margin: 10px 0;
+}

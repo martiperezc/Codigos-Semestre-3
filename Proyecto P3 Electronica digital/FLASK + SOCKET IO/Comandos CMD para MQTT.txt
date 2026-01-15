@@ -1,0 +1,22 @@
+Comandos CMD para MQTT
+
+1. Para acceder a usar comandos mosquitto:
+
+cd "C:\Utilidades\Mosquitto MQTT\mosquitto"
+
+2. Comando para poner CMD en modo escucha (Receptor de mensajes MQTT)
+
+mosquitto_sub -h localhost -t "#" -v
+
+3. Comando para publicar mensajes en mosquitto CMD
+
+mosquitto_pub.exe -h localhost -t "test/mensaje" -m "hola mqtt"
+
+4. Comando para ver IP de broker:
+ipconfig
+
+
+Configuraciones IP de Broker Mosquitto:
+
+IP Laptop:
+Dirección IPv4. . . . . . . . . . . . . . : 192.168.100.18

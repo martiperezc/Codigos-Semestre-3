@@ -1,0 +1,20 @@
+Comando para visualizar interfaz web:
+
+http://localhost:5000
+
+
+IP local PC app.py :
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.100.167
+http://192.168.100.167
+
+
+
+Comando para visualizar desde mi local host, como desde otro dispositivo conectado a la misma red:
+
+Local:
+
+http://localhost:5000
+
+WIFI LOCAL:
+
+http://192.168.100.167:5000
