@@ -1,0 +1,33 @@
+REPORTE INTEGRAL DE CALIDAD DEL AIRE
+====================================
+
+ZONA: Norte
+Nivel Actual PM2.5: 20.00 ug/m3
+Prediccion 24h PM2.5: 14.42 ug/m3
+Promedio mensual PM2.5 (30 dias): 21.47 ug/m3
+ESTADO: NORMAL
+------------------------------------
+ZONA: Sur
+Nivel Actual PM2.5: 31.00 ug/m3
+Prediccion 24h PM2.5: 35.55 ug/m3
+Promedio mensual PM2.5 (30 dias): 30.83 ug/m3
+ESTADO: CRITICO - Se requiere mitigacion inmediata.
+------------------------------------
+ZONA: Centro
+Nivel Actual PM2.5: 38.00 ug/m3
+Prediccion 24h PM2.5: 10.43 ug/m3
+Promedio mensual PM2.5 (30 dias): 14.40 ug/m3
+ESTADO: NORMAL
+------------------------------------
+ZONA: Este
+Nivel Actual PM2.5: 12.00 ug/m3
+Prediccion 24h PM2.5: 1.95 ug/m3
+Promedio mensual PM2.5 (30 dias): 14.00 ug/m3
+ESTADO: NORMAL
+------------------------------------
+ZONA: Oeste
+Nivel Actual PM2.5: 17.00 ug/m3
+Prediccion 24h PM2.5: 0.82 ug/m3
+Promedio mensual PM2.5 (30 dias): 17.00 ug/m3
+ESTADO: NORMAL
+------------------------------------
