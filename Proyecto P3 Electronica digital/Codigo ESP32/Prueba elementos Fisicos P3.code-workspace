@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Prueba milis",
+			"path": "../Prueba milis"
+		},
+		{
+			"name": "Sensor_Motor_ESP",
+			"path": "../Sensor_Motor_ESP"
+		},
+		{
+			"name": "TALLER 2 ESP32",
+			"path": "../TALLER 2 ESP32"
+		},
+		{
+			"name": "Taller_2",
+			"path": "../Taller_2"
+		}
+	],
+	"settings": {}
+}
