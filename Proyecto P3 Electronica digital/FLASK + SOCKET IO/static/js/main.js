@@ -1,13 +1,13 @@
 const socket = io();
 
 const posiciones = {
-  PB_1: { top: 72, left: 52 },
-  PB_2: { top: 25, left: 52 },
-  PB_3: { top: 25, left: 70 },
+  PB_1: { top: 27, left: 49 },
+  PB_2: { top: 74, left: 50 },
+  PB_3: { top: 74, left: 31 },
 
-  PA_1: { top: 26, left: 50 },
-  PA_2: { top: 26, left: 62 },
-  PA_3: { top: 26, left: 73 }
+  PA_1: { top: 74, left: 50 },
+  PA_2: { top: 74, left: 39 },
+  PA_3: { top: 74, left: 27 }
 };
 
 let estadoActual = {};
@@ -36,7 +36,7 @@ function renderAutos() {
     // Mostrar
     img.style.display = "block";
 
-    // ⚠️ ESTO DEBE EJECUTARSE SIEMPRE
+    // Actualizar posición y estado
     img.style.top = posiciones[sensor].top + "%";
     img.style.left = posiciones[sensor].left + "%";
 

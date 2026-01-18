@@ -27,6 +27,6 @@ body {
   transition: opacity 0.3s ease;
 }
 #titulo-plano {
-    color: #ccff00; /* Un color neón para que combine con tu plano */
+    color: #ccff00; 
     margin: 10px 0;
 }
